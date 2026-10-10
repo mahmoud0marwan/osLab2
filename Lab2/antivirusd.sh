@@ -5,7 +5,6 @@ while  diff -q dir.new dir.last > /dev/null;do
 sleep $3
 ls -l $1 >dir.new
 done
-cat dir.new > dir.last
 x=$(grep -ilE "virus|trojan|malware|worm|ransomware" $1/* 2>/dev/null)
     for file in $1/*; do
         if [[ "$file" =~ \.(exe|bat|vbs|scr|ps1)$ ]]; then
@@ -22,5 +21,6 @@ x=$(grep -ilE "virus|trojan|malware|worm|ransomware" $1/* 2>/dev/null)
             echo "$file is malicious and it is deleted"
         done <<< "$(printf '%s\n' "$x" | sort -u)"
     fi
+ls -l $1 >dir.last
 
 

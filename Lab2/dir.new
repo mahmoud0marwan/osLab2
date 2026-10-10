@@ -1,9 +1,4 @@
-total 16
--rw-rw-r-- 1 os os    0 Oct  9 15:52 Makefile
--rw-rw-r-- 1 os os    0 Oct  9 16:33 README.md
--rwxrwxr-x 1 os os  647 Oct  9 19:45 antivirusd.sh
--rw-rw-r-- 1 os os  178 Oct  9 19:47 dir.last
--rw-rw-r-- 1 os os    0 Oct  9 19:54 dir.new
-drwxrwxr-x 2 os os 4096 Oct  9 19:47 malicious
--rw-rw-r-- 1 os os    0 Oct  9 16:33 restore.sh
-drwxrwxr-x 2 os os 4096 Oct  9 19:47 watched
+total 12
+-rw-rw-r-- 1 os os 17 Oct 10 18:02 h.txt
+-rw-rw-r-- 1 os os  3 Oct 10 18:02 hi.exe
+-rw-rw-r-- 1 os os  5 Oct  9 18:22 safe.txt
